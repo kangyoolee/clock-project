@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+
+body {
+    font-family: 'GmarketSansBold';
+    color: white;
+}
+
+.clock{
+    position:absolute;
+    top:43%; left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.today{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.einstein{
+    position:absolute;
+    top:95%; left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
